@@ -9,6 +9,7 @@ public class FirstProgram {
         System.out.print("Знaчeниe переменной num * 2 равно ");
         System.out.println(num);
         IfSample.Calculate();
+        ForTest.ForConstruct();
     }
 }
 
@@ -23,5 +24,12 @@ class IfSample {
         x = x * 2;
         if (x > у) System . out . println ( "x теперь больше у" ) ;
         if (x == у) System.out . println ( "вы не увидите э того");
+    }
+}
+class ForTest {
+    public static void ForConstruct() {
+        int x;
+        for (x = 0; x < 10; x++)
+            System.out.println(" Знaчeниe х: " + x);
     }
 }
