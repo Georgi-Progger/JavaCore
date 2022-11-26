@@ -5,11 +5,11 @@ class IfSample {
         int x, у;
         x = 10;
         у = 20;
-        if(x < у) System.out . println ( "x меньше у " );
+        if(x < у) System.out.print ( "x меньше у " );
         x = x * 2;
-        if(x == у) System.out . println ( "x теперь равно у" );
+        if(x == у) System.out . print ( "x теперь равно у" );
         x = x * 2;
-        if (x > у) System . out . println ( "x теперь больше у" ) ;
-        if (x == у) System.out . println ( "вы не увидите э того");
+        if (x > у) System . out . print ( "x теперь больше у" ) ;
+        if (x == у) System.out . print ( "вы не увидите э того");
     }
 }
