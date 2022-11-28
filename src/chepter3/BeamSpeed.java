@@ -12,6 +12,6 @@ public class BeamSpeed {
         distance = lightspeed * seconds ;
         System . out.print ( " Зa " + days ) ;
         System.out.print (" дней свет пройдет около " ) ;
-        System.out.println(distance + " миль." ) ;
+        System.out.print(distance + " миль." ) ;
     }
 }
