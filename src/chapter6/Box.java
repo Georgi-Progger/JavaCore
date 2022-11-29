@@ -23,6 +23,5 @@ class Вох {
                 vol = mybox1.volume();
                 System.out.println("Oбъeм равен " + vol);
                 vol = mybox2.volume();
-                System.out.println("Oбъeм равен " + vol);
             }
         }
