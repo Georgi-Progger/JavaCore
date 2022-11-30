@@ -8,20 +8,23 @@ class Вох {
     double volume() {
         return width * height * depth;
     }
+
+    void setDim(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
+    }
 }
-        class BoxDemo4 {
+        class BoxDemoS {
             public static void main(String args[]) {
                 Вох mybox1 = new Вох();
                 Вох mybox2 = new Вох();
                 double vol;
-                mybox1.width = 10;
-                mybox1.height = 20;
-                mybox1.depth = 15;
-                mybox2.width = 3;
-                mybox2.height = 6;
-                mybox2.depth = 9;
+                mybox1.setDim(10, 20, 15);
+                mybox2.setDim(3, 6, 9);
                 vol = mybox1.volume();
-                System.out.println("Oбъeм равен " + vol);
+                System.out.println("объeм равен" + vol);
                 vol = mybox2.volume();
+                System.out.println("объeм равен" + vol);
             }
         }
