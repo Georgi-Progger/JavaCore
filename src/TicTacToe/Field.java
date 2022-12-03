@@ -1,9 +1,9 @@
 package TicTacToe;
 
 public class Field {
-    final char S_X = 'x';
-    final char S_O = 'o';
-    final char S_EMPTY = '_';
+    protected final char S_X = 'x';
+    protected final char S_O = 'o';
+    protected final char S_EMPTY = '_';
     protected char[][] field;
     Field(){
         field = new char[3][3];
