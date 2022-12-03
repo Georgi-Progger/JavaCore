@@ -3,8 +3,9 @@ package TicTacToe;
 import java.util.Scanner;
 
 public class GameLogic extends Field {
+    private int s = 0; //s флажок
     void game() {
-        int s = 0; //s флажок
+
         while (true) {
             s++;
             printField();
