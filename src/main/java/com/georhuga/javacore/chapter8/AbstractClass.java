@@ -9,6 +9,9 @@ public class AbstractClass {
         sam.display();
         Client bob = new Client("Bob", "Leman Brothers");
         bob.display();
+        Person p;
+        p = sam;
+        p.display();
     }
 }
 

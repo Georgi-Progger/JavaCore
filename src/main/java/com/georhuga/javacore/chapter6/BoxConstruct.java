@@ -4,9 +4,9 @@ package chapter6;
 class Box{
     double w;
 
-    Box(double w1){
+    Box(double w){
         System.out.println("Конструирование ");
-        w = w1;
+        this.w = w;
     }
 
 }

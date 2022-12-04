@@ -1,6 +1,6 @@
 package chapter7;
 
-public class PassOb {
+class PassOb {
     public static void main(String[] args) {
         Test t = new Test(11,22);
         Test t2 = new Test(11,22);
